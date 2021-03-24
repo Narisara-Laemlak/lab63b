@@ -15,6 +15,7 @@
 
 ## ศึกษาข้อมูลเบื้องต้น
 [สัญญาณ output](https://www.myarduino.net/article/83/)
+[สัญญาณ input output พื้นฐาน](https://www.ioxhop.com/article/67/esp32)
 
 ## วิธีการทำการทดลอง 1
 1.เขียนโปรแกรมการทดลองบน Microcontroller โดยเสียบ Microcontroller กับ Adepter
