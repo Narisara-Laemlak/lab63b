@@ -16,12 +16,15 @@
 
 ## วิธีการทำการทดลอง
 1.เข้าไปที่โปรแกรมทดลองตัวอย่างที่ 5 เช็คการทำงานของโปรแกรม
-2.เขียนโปรแกรมการทดลองบน Microcontroller โดยเสียบ Microcontroller กับ serial port ของ USB 
-3.upload โปรแกรมเข้าตัว Microcontroller
-4.run program โดยกด port ของ USB และกด reset
-5.ทดสอบโดยใช้เว็บ browser ธรรมดา
+![image](https://user-images.githubusercontent.com/80879900/112403415-f30beb00-8d40-11eb-88d0-217ec02f73d4.png)
+![image](https://user-images.githubusercontent.com/80879900/112403546-2e0e1e80-8d41-11eb-88f6-338eaa77d0e8.png)
+2.upload โปรแกรมการทดลองบน Microcontroller โดยเสียบ Microcontroller กับ serial port ของ USB และ run program โดยกด port ของ USB และกด reset
+![image](https://user-images.githubusercontent.com/80879900/112403589-48e09300-8d41-11eb-921d-9b263aa8e5f2.png)
+3.ทดสอบโดยใช้เว็บ browser ธรรมดา
+![image](https://user-images.githubusercontent.com/80879900/112403715-7f1e1280-8d41-11eb-9379-9504fbcafed4.png)
 
 ## การบันทึกผลการทดลอง
+ไม่มีผลการทดลอง
 
 ## อภิปรายผลการทดลอง
 เนื่องจากคลิปสอนของอาจารย์ขัดข้องไม่สามารถดูได้ จึง assume ว่าโปรแกรมนี้สะดวกต่อการใช้งานต่อการควบคุมอุปกรณ์ไฟฟ้าผ่านอุปกรณ์
