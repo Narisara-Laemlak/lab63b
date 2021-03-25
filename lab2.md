@@ -13,11 +13,15 @@
 [การ set wifi](https://medium.com/@pattanapong.sriph/)
 
 ## วิธีการทำการทดลอง
-1.เขียนโปรแกรมการทดลองบน Microcontroller โดยเสียบ Microcontroller กับ serial port ของ USB 
-2.เช็คโปรแกรม โดยจะมี 2 ส่วนคือ set up และ loop ให้พร้อมทำงาน 
-3.run program เข้าสู่ microcontroller  โดยกด port ของ USB และกด reset
+1.เขียนโปรแกรมการทดลองบน Microcontroller โดยเสียบ Microcontroller กับ serial port ของ USB เพื่อเตรียม run โปรแกรม
+![image](https://user-images.githubusercontent.com/80879900/112400799-b12c7600-8d3b-11eb-9ac7-eba404b87839.png)
+2.พิมพ์ vi src/main.cpp เช็คโปรแกรม โดยจะมี 2 ส่วนคือ set up และ loop ให้พร้อมทำงาน 
+![image](https://user-images.githubusercontent.com/80879900/112400896-f05ac700-8d3b-11eb-980d-3181e43dbffd.png)
+![image](https://user-images.githubusercontent.com/80879900/112400950-0cf6ff00-8d3c-11eb-99bc-aff04a92e746.png)
+3.พิมพ์ pio run-t upload เพื่อทำาร run program เข้าสู่ microcontroller  และจะต้องกด port ของ USB และกด reset
+![image](https://user-images.githubusercontent.com/80879900/112401139-69f2b500-8d3c-11eb-8c31-b62f5826ca2b.png)
 4.ใช้คำสั่ง pio device monitor เพื่อเช็คผลลัพธ์ว่า สแกนสัญญาณ wifi โดยรอบได้หรือไม่ ซึ่งจะสแกนได้ตามความแรงที่ได้รับ
-
+![image](https://user-images.githubusercontent.com/80879900/112401169-82fb6600-8d3c-11eb-8bc9-9a17c4fa33e8.png)
 
 ## การบันทึกผลการทดลอง
 ![image](https://user-images.githubusercontent.com/80879900/112351364-650e1100-8cfc-11eb-85f3-6b13bc0a141c.png)
