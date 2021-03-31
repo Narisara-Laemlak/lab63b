@@ -31,10 +31,12 @@ void setup(void){
 		msg +=	"</H1>";
 		server.send(200, "text/plain", msg);
 	});
+	//http://192.168.1.1/on = switch on
 	server.on("/on", []() {
 		String msg = "<H1>ON</H1>";
 		server.send(200, "text/plain", msg);
 	});
+	//http://192.168.1.1/on = switch off
 	server.on("/off", []() {
 		String msg = "<H1>OFF</H1>";
 		server.send(200, "text/plain", msg);
