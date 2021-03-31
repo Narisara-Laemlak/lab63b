@@ -16,7 +16,7 @@ int cnt = 0;
 
 void setup(void){ 
 	Serial.begin(115200); //เริ่มใช้งาน UART0 ที่ความเร็ว 115200
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT); //กำหนดให้ขาใน LED_BUILTIN เป็นเอาต์พุตแบบดิจิตอล
 
 	WiFi.softAP(ssid, password); //ทำการ Connect SSID และ Pass เพื่อทำหน้าที่เป็น wifi เอง
 	WiFi.softAPConfig(local_ip, gateway, subnet);
